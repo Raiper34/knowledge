@@ -13,7 +13,7 @@ sudo apt-get update
 sudo apt-get install npm
 
 #PHP
-apt-get install libapache2-mod-php
+sudo apt-get install libapache2-mod-php
 
 #Bower
 sudo npm install -g bower
