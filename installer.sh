@@ -48,6 +48,9 @@ sudo npm install nw-builder -g
 #Angular CLI
 sudo npm install -g @angular/cli
 
+#Ionic 2
+sudo npm install -g ionic cordova
+
 #Netbeans
 #Crosswalk
 #Nw.js
