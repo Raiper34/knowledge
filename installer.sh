@@ -24,6 +24,9 @@ sudo npm install -g grunt-cli
 #Cordova
 sudo npm install -g cordova
 
+#Curl
+sudo apt-get install curl
+
 #Composer
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
