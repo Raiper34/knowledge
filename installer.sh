@@ -51,6 +51,11 @@ sudo npm install -g @angular/cli
 #Ionic 2
 sudo npm install -g ionic cordova
 
+#Sysmonitor
+sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
+sudo apt-get update
+sudo apt-get install indicator-sysmonitor
+
 #Netbeans
 #Crosswalk
 #Nw.js
