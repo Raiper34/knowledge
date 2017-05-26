@@ -12,6 +12,10 @@ sudo apt-get install nodejs
 sudo apt-get update
 sudo apt-get install npm
 
+#Node latest
+sudo npm install n -g
+sudo n stable
+
 #PHP
 sudo apt-get install libapache2-mod-php
 
