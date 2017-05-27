@@ -17,7 +17,7 @@ sudo npm install n -g
 sudo n stable
 
 #PHP
-sudo apt-get install libapache2-mod-php
+#sudo apt-get install libapache2-mod-php
 
 #Bower
 sudo npm install -g bower
@@ -68,4 +68,5 @@ sudo apt-get install indicator-sysmonitor
 #Nw.js
 
 #XAMP
-wget http://sourceforge.net/projects/xampp/files/XAMPP%20Linux/1.8.3/xampp-linux-x64-1.8.3-2-installer.run/download
+#Manual downoad with PHP 7
+#wget http://sourceforge.net/projects/xampp/files/XAMPP%20Linux/1.8.3/xampp-linux-x64-1.8.3-2-installer.run/download
