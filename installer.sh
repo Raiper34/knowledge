@@ -25,6 +25,9 @@ sudo npm install -g bower
 #Grunt
 sudo npm install -g grunt-cli
 
+#Yarn
+sudo npm install -g yarn
+
 #Cordova
 sudo npm install -g cordova
 
