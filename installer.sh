@@ -32,11 +32,12 @@ sudo npm install -g yarn
 sudo npm install -g cordova
 
 #Curl
-sudo apt-get install curl
+#sudo apt-get install curl
 
 #Composer
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
+#curl -sS https://getcomposer.org/installer | php
+#sudo mv composer.phar /usr/local/bin/composer
+sudo apt-get install composer
 
 #JDK
 sudo apt-get update
