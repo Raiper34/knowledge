@@ -16,27 +16,25 @@ sudo apt-get install npm
 sudo npm install n -g
 sudo n stable
 
-#PHP
-#sudo apt-get install libapache2-mod-php
-
 #Bower
-sudo npm install -g bower
+npm install -g bower
 
 #Grunt
-sudo npm install -g grunt-cli
+npm install -g grunt-cli
+
+#Gulp
+npm install -g gulp
 
 #Yarn
-sudo npm install -g yarn
+npm install -g yarn
 
 #Cordova
-sudo npm install -g cordova
+npm install -g cordova
 
-#Curl
-#sudo apt-get install curl
+#Electron
+npm install -g electron
 
 #Composer
-#curl -sS https://getcomposer.org/installer | php
-#sudo mv composer.phar /usr/local/bin/composer
 sudo apt-get install composer
 
 #JDK
@@ -47,20 +45,14 @@ sudo apt-get install default-jdk
 sudo apt-get update
 sudo apt-get install ant
 
-#Crosswalk
-sudo npm install -g crosswalk-app-tools
-
 #FilleZilla
 sudo apt install filezilla
 
-#NW builder
-sudo npm install nw-builder -g
-
 #Angular CLI
-sudo npm install -g @angular/cli
+npm install -g @angular/cli
 
 #Ionic 2
-sudo npm install -g ionic cordova
+npm install -g ionic cordova
 
 #Sysmonitor
 sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
@@ -68,7 +60,6 @@ sudo apt-get update
 sudo apt-get install indicator-sysmonitor
 
 #Docker
-#sudo apt-get install curl
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
@@ -77,10 +68,8 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install docker-ce
 
-#Netbeans
-#Crosswalk
-#Nw.js
-
-#XAMP
-#Manual downoad with PHP 7
-#wget http://sourceforge.net/projects/xampp/files/XAMPP%20Linux/1.8.3/xampp-linux-x64-1.8.3-2-installer.run/download
+#MongoDB
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
