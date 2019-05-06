@@ -11,6 +11,7 @@ sudo apt-get install nodejs
 #NPM
 sudo apt-get update
 sudo apt-get install npm
+npm install -g npm@latest
 
 #Node latest
 sudo npm install n -g
